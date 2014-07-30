@@ -1,0 +1,4 @@
+simpleslideshow
+===============
+
+Simple Slideshow
