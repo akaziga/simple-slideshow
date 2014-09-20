@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Simple Sldeshow</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link href="app.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="slideshow">
+            <div class="slideshow-image-main">
+                <img class="image-main" src="http://lorempixel.com/400/200/sports/1/" alt="image-main"/>
+            </div>
+            <div class="slideshow-image-thumbs">
+                <img class="image-thumbs" src="http://lorempixel.com/400/200/sports/1/" alt="image-thumbs" onclick='changePic()'/>
+                <img class="image-thumbs" src="http://lorempixel.com/400/200/sports/2/" alt="image-thumbs" onclick='changePic()'/>
+                <img class="image-thumbs" src="http://lorempixel.com/400/200/sports/3/" alt="image-thumbs" onclick='changePic()'/>
+            </div>
+        </div>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
