@@ -1,4 +1,4 @@
-simpleslideshow
+simple slideshow
 ===============
 
 Simple Slideshow
